@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.pug",
+    "dev": "parcel pages/headers-and-footers/headers-and-footers.pug",
     "build": "parcel build index.pug"
   },
   "keywords": [],
