@@ -1,3 +1,8 @@
+@import '~theme/variables.scss';
+body {
+    background-color: $gray;
+}
+
 .logo-round {
     margin-top: 30px;
 }
