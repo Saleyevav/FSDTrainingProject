@@ -5,8 +5,11 @@
     height: 70px;
     display: flex;
     align-items: center;
-    .header__logo{
-        padding-left: 140px;
+    &__logo{
+        margin-left: 140px;
+    }
+    &__menu{
+        margin-left: 297px;
     }
    
 }

@@ -1,11 +1,8 @@
 @import '~theme/variables.scss';
 .menu{
     ul {
-        display: flex;
-        
-        
-        li{
-            
+        .menu__item{
+            display: inline-block;
         }
         
     }
