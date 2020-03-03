@@ -1,12 +1,13 @@
 @import '~theme/variables.scss';
 @import '~theme/fonts.scss';
-
+@import '~theme/reset.scss';
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    
 }
 
 head {
     font-size: 15px;
 }
+
+

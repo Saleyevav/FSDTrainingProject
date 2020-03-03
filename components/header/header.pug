@@ -1,6 +1,10 @@
 include ../../components/logo/logo
+include ../../components/menu/menu
 
 mixin header(authorized)
     .header
         .header__logo
             +logo('#')
+
+        .header__menu
+            +menu()    
