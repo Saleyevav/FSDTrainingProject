@@ -3,6 +3,19 @@
     ul {
         .menu__item{
             display: inline-block;
+            font-family: montserrat, sans-serif;
+            margin-right: 30px;
+            a{
+                text-decoration: none;
+                color: $dark-shade-50;
+                font-size: 1.4rem;
+            }
+        }
+        .menu__item_active{
+            a{
+                font-weight: bolder; 
+                color: $dark-shade-75;
+            }
         }
         
     }
