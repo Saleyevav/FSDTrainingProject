@@ -3,8 +3,9 @@ include ../../components/menu/menu
 
 mixin header(authorized)
     header.header
-        .header__logo
-            +logo('#')
+        .header__wrapper
+            .header__logo
+                +logo('#')
 
-        .header__menu
-            +menu()    
+            .header__menu
+                +menu()    
