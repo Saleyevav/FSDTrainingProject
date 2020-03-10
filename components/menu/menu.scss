@@ -5,15 +5,15 @@
             display: inline-block;
             font-family: montserrat, sans-serif;
             margin-right: 30px;
-            a{
+            .menu__link{
                 text-decoration: none;
                 color: $dark-shade-50;
                 font-size: 1.4rem;
             }
         }
         .menu__item_active{
-            a{
-                font-weight: bolder; 
+            .menu__link{
+                font-weight: 900;
                 color: $dark-shade-75;
             }
         }

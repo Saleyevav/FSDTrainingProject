@@ -6,18 +6,29 @@
     
     height: 70px;
     &__wrapper{
-        display: flex;
+        background-color: yellowgreen;
+        max-width: 1160px;
+        margin: 0 auto;
         height: 100%;
-        margin-left: 140px;
-        margin-right: 140px;
-        
-        
+        display: flex;
+        flex-wrap: wrap;
         align-items: center;
-        &__logo{
-            
-        }
-        &__menu{
-            margin-left: 297px;
-        }
+        justify-content: space-between;
+      
+    }
+
+   
+    &__logo{
+        flex-grow:2;
+    }
+
+    &__menu{
+        background-color: chartreuse;
+    }
+
+    &__authorize{
+        width: 200px;
+        height: 100%;
+        background-color: brown;
     }
 }
