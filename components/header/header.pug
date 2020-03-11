@@ -1,13 +1,15 @@
 include ../../components/logo/logo
 include ../../components/menu/menu
+ 
 
-mixin header(authorized)
+mixin header(menuItems, quest)
     header.header
         .header__wrapper
             .header__logo
                 +logo('/')
             
             .header__menu
-                +menu()    
+                +menu(menuItems)    
             
             .header__authorize
+                a(href = quest.link)= quest.name

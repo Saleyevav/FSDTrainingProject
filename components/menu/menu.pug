@@ -1,4 +1,6 @@
-mixin menu()
+
+
+//- mixin menu()
     nav.menu
         ul
             li.menu__item.menu__item_active
@@ -13,3 +15,8 @@ mixin menu()
                 a.menu__link(href="#") News
             li.menu__item
                 a.menu__link(href="#") Documentation
+
+mixin menu(items)
+    nav.menu
+        for item in items
+            a.menu__item(href = item.link)= item.name
