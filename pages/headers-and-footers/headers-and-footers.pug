@@ -2,15 +2,22 @@ include ../../components/logo-round/logo-round
 include ../../components/header/header
 
 -   
-    var menuItems = [
-        {name: "Home",link: "#"},
-        {name: "About Us",link: "#"},
-        {name: "Services",link: "#"},
-        {name: "Careers",link: "#"},
-        {name: "News",link: "#"},
-        {name: "Documentation",link: "#"},
+    var subMenuServices = [
+        {name: item1, link: "#"},
+        {name: item2, link: "#"},
+        {name: item3, link: "#"}
     ];
-    var quest = {name: "Cosmin Negoita", link: "#"}
+    var menuItems = [
+        {name: "Home", link: "#", active: true},
+        {name: "About Us", link: "#"},
+        {name: "Services", link: "#", subMenu: subMenuServices},
+        {name: "Careers", link: "#"},
+        {name: "News", link: "#"},
+        {name: "Documentation", link: "#"},
+    ];
+
+
+    var quest = {name: "Cosmin Negoita", link: "#"};
         
     
 

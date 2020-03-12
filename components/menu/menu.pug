@@ -18,5 +18,23 @@
 
 mixin menu(items)
     nav.menu
-        for item in items
-            a.menu__item(href = item.link)= item.name
+        ul.menu__ul
+            for item in items
+              
+
+                
+                if !item.subMenu
+                    if item.active
+                            li.menu__item
+                                a.menu__link.menu__item-active(href = item.link)= item.name
+                    else
+                        li.menu__item
+                            a.menu__link(href = item.link)= item.name
+                else
+                    if item.active
+                            li.menu__item
+                                a.menu__link.menu__item-active.menu__item-drop(href = item.link)= item.name
+                    else
+                        li.menu__item
+                            a.menu__link.menu__item-drop(href = item.link)= item.name
+                            
